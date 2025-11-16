@@ -5,7 +5,6 @@ La **Agenda Personal de Citas** es una aplicación diseñada para organizar, reg
 
 ---
 
-# Objetivos del Proyecto
 
 # **Objetivo General**
 Desarrollar un sistema funcional que permita la administración eficiente de citas, garantizando orden, accesibilidad y claridad en la información registrada.
@@ -51,7 +50,7 @@ Desarrollar un sistema funcional que permita la administración eficiente de cit
 
 ---
 
-# Ejemplo de Registro de Cita
+## Ejemplo de Registro de Cita
 
 ```json
 {
