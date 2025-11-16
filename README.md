@@ -1,77 +1,82 @@
-Agenda_Personal de citas
-# 📅 Agenda Personal de Citas
+Agenda Personal de Citas
+Descripción General
 
-La **Agenda Personal de Citas** es un sistema diseñado para gestionar citas de manera simple, organizada y accesible. Permite registrar, editar, eliminar y consultar citas, evitando conflictos de horarios y proporcionando una experiencia clara para el usuario.
+La Agenda Personal de Citas es una aplicación diseñada para optimizar la gestión del tiempo mediante el registro, organización y seguimiento de citas personales, profesionales o académicas.
+El sistema permite al usuario crear, consultar, modificar y eliminar citas de manera ágil, con una interfaz comprensible y una estructura orientada a la productividad.
 
----
+Este proyecto responde a la necesidad cotidiana de administrar compromisos sin recurrir a métodos dispersos o poco confiables.
 
-## 📘 1. Descripción del Caso de Uso  
-Este sistema permite a un usuario administrar sus citas personales.  
-El usuario puede registrar una cita especificando fecha, hora, descripción y opcionalmente una categoría.  
-También puede consultar la lista completa de citas, editar registros y eliminarlos cuando ya no sean necesarios.
+Objetivos del Proyecto
 
----
+Objetivo General
 
-## 🎯 2. Objetivos del Sistema  
-- Facilitar la creación y organización de citas personales.  
-- Evitar choques de fecha y hora mediante validaciones.  
-- Proveer una visualización ordenada de todas las citas.  
-- Garantizar una interfaz simple y fácil de utilizar.  
+Desarrollar un sistema funcional que permita la administración eficiente de citas, garantizando accesibilidad, orden y confiabilidad en el manejo de la información.
 
----
+Objetivos Específicos
 
-## 🧭 3. Requerimientos del Sistema  
+Registrar citas con datos relevantes (fecha, hora, descripción, tipo, entre otros).
 
-### ✔ Requerimientos Funcionales  
-1. Registrar una cita con fecha, hora y descripción.  
-2. Editar citas existentes.  
-3. Eliminar citas registradas.  
-4. Listar citas en orden cronológico.  
-5. Validar que no existan dos citas en la misma fecha y hora.  
-6. (v2) Agregar categoría opcional a las citas.  
-7. (v2) Implementar búsqueda por palabra clave o categoría.
+Facilitar la búsqueda y filtrado de citas según distintos criterios.
 
-### ✔ Requerimientos No Funcionales  
-1. Interfaz de fácil uso y comprensión.  
-2. Tiempo de respuesta menor a 2 segundos por acción.  
-3. Compatibilidad con navegadores modernos.  
-4. Diseño responsivo para uso en móvil y escritorio.  
-5. Seguridad básica para evitar pérdida de datos.
+Permitir la actualización o eliminación de citas creadas previamente.
 
----
+Presentar la información de manera clara mediante listas o reportes.
 
-## 🧪 4. Tabla de Pruebas Funcionales  
+Proteger la integridad de los datos almacenados.
 
-| ID | Caso de Prueba | Entrada | Resultado Esperado | Estado |
-|----|----------------|---------|--------------------|--------|
-| CP01 | Registrar cita válida | Fecha + hora + descripción | La cita se registra correctamente | ✔ |
-| CP02 | Intentar registrar cita en horario ocupado | Fecha + hora existente | Mostrar mensaje: “Horario no disponible” | ✔ |
-| CP03 | Editar cita existente | Nuevos datos válidos | La cita actualiza su información | ✔ |
+Requerimientos Funcionales
+ID	Requerimiento	Descripción
+RF01	Registrar cita	El sistema debe permitir ingresar nueva información de una cita.
+RF02	Consultar citas	El usuario puede visualizar citas por fecha o categorías.
+RF03	Editar cita	Modificación de citas existentes.
+RF04	Eliminar cita	Posibilidad de borrar citas del registro.
+RF05	Filtrado	Búsqueda por fecha, palabra clave o tipo.
+RF06	Recordatorios (si aplica)	Enviar o mostrar alertas de citas próximas.
+🖥️ Requerimientos No Funcionales
+ID	Categoría	Descripción
+RNF01	Usabilidad	Interfaz clara, simple y apta para cualquier tipo de usuario.
+RNF02	Rendimiento	Las consultas deben ejecutarse sin retrasos visibles.
+RNF03	Seguridad	Los datos deben almacenarse de forma íntegra y sin pérdidas.
+RNF04	Portabilidad	Compatible con diversos sistemas operativos o navegadores (según implementación).
+🧩 Estructura del Proyecto
 
-Más detalles disponibles en:  
-➡ `pruebas/PlanPruebas.md`
+Dependiendo del entorno implementado, el proyecto puede contener:
 
----
+Código fuente
 
-## 🛠 5. Tipo de Mantenimiento Propuesto  
-Se propone **mantenimiento perfectivo**, enfocado en mejorar:
+Archivos de configuración
 
-- La experiencia de usuario (UI/UX).  
-- La búsqueda y filtrado de citas.  
-- Notificaciones recordatorias para citas próximas.  
-- Mejor tiempo de respuesta.  
+Documentación técnica (incluye informe técnico adjunto)
 
-Más información en:  
-➡ `mantenimiento/Propuesta_Mantenimiento.md`
+README (este mismo documento)
 
----
+Tecnologías Utilizadas
 
-## 📚 6. Investigación sobre Markdown  
-El proyecto utiliza **Markdown (.md)** para documentar requerimientos, pruebas y mantenimiento debido a:
+(Completa según tu implementación, si deseas luego puedo generarlo con exactitud)
 
-- Su facilidad de lectura.  
-- Su compatibilidad con GitHub.  
-- Su sintaxis simple para tablas, enlaces, listas y encabezados.  
-- Su capacidad para mantenerse versionado junto con el código.  
+Lenguaje de programación
 
+Base de datos o método de almacenamiento
+
+Entorno de desarrollo
+
+Librerías o frameworks
+
+Ejemplo de Registro de Cita
+{
+  "titulo": "Reunión académica",
+  "fecha": "2025-03-10",
+  "hora": "14:00",
+  "tipo": "Trabajo",
+  "descripcion": "Revisión de avances del proyecto"
+}
+Uso básico del sistema
+
+Crear una cita → Ingresar datos (fecha, hora, tipo y descripción).
+
+Consultar citas → Filtrar por fecha o palabra clave.
+
+Editar → Actualizar cualquier campo de una cita registrada.
+
+Eliminar → Eliminar una cita permanentemente.
 
