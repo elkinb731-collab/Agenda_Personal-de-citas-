@@ -3,7 +3,7 @@
 
 Markdown es un lenguaje de marcado ligero que permite dar formato a texto utilizando una sintaxis simple y fácil de leer. Fue creado por John Gruber con el objetivo de hacer que los documentos sean legibles en su forma sin procesar y al mismo tiempo convertibles a HTML de manera sencilla.
 
-¿Por qué se utiliza en proyectos de software?
+## ¿Por qué se utiliza en proyectos de software?
 
 Para documentar repositorios en GitHub, GitLab o Bitbucket.
 
@@ -62,3 +62,4 @@ Estandarización: facilita la colaboración entre equipos sin depender de format
 Ligero y portable: funciona en cualquier sistema operativo y editor de texto.
 
 Ideal para documentación continua: perfecto para proyectos que se actualizan frecuentemente.
+
